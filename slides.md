@@ -1,21 +1,22 @@
 ---
 theme: seriph
 background: /title.png
+backgroundSize: cover
+backgroundPosition: center
 title: 2025年の振り返り
 info: |
   ## 2025年の振り返りLT
   挑戦して落ち込んで、少しずつ成長した一年
-class: text-center
 drawings:
   persist: false
 transition: slide-left
 mdc: true
-duration: 5min
+duration: 10min
 layout: cover
-backgroundSize: cover
-backgroundPosition: center
 colorSchema: light
+presenter: true
 ---
+
 # 2025年の振り返り
 
 <div class="text-gray-700 text-xl mt-4 font-medium">
