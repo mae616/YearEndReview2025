@@ -1,4 +1,6 @@
 ---
+presenter: true
+colorSchema: light
 theme: seriph
 background: /title.png
 backgroundSize: cover
@@ -11,27 +13,20 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
-duration: 10min
+duration: 8min
 layout: cover
-colorSchema: light
-presenter: true
+css: styles.css
 ---
 
 # 2025年の振り返り
 
-<div class="text-gray-700 text-xl mt-4 font-medium">
-挑戦して落ち込んで、<br/>
-少しずつ成長した一年
+<div class="text-[#565656] text-xl mt-4 font-medium">
+- 挑戦して落ち込んで、少しずつ成長した1年 -
 </div>
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-4 py-2 rounded-lg cursor-pointer bg-white/80 text-gray-800 hover:bg-white transition">
-    ゆるっと2025年の振り返りLT会！
-  </span>
-</div>
-
-<div class="abs-br m-6 flex gap-2">
-  <span class="text-sm text-gray-600 font-medium">mae616</span>
+<div class="pt-12 text-gray-600">
+    2025.12.20 ゆるっと2025年の振り返りLT会！<br>
+    mae616
 </div>
 
 <!--
