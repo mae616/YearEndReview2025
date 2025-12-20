@@ -102,22 +102,31 @@ layout: default
 
 <div class="space-y-4">
 
-<div class="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500">
-  <div class="font-bold text-lg text-gray-800 mb-1">第1期</div>
-  <div class="text-sm text-gray-600">2024年12月〜2025年3月</div>
-  <div class="text-base text-gray-700 mt-2">勢いで挑戦して折れ続けた時期</div>
+<div class="p-5 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl border-l-8 border-blue-500 shadow-lg flex items-start gap-4">
+  <div class="text-4xl">🌱</div>
+  <div class="flex-1">
+    <div class="font-bold text-xl text-gray-800 mb-1">前期</div>
+    <div class="text-sm text-gray-600">2024年12月〜2025年3月</div>
+    <div class="text-base text-gray-700 mt-2">勢いで挑戦して折れ続けた時期</div>
+  </div>
 </div>
 
-<div class="p-4 bg-green-50 rounded-lg border-l-4 border-green-500">
-  <div class="font-bold text-lg text-gray-800 mb-1">第2期</div>
-  <div class="text-sm text-gray-600">2025年4月〜2025年7月</div>
-  <div class="text-base text-gray-700 mt-2">コミュニティと活動が広がった時期</div>
+<div class="p-5 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-lg flex items-start gap-4">
+  <div class="text-4xl">🌿</div>
+  <div class="flex-1">
+    <div class="font-bold text-xl text-gray-800 mb-1">中期</div>
+    <div class="text-sm text-gray-600">2025年4月〜2025年7月</div>
+    <div class="text-base text-gray-700 mt-2">コミュニティと活動が広がった時期</div>
+  </div>
 </div>
 
-<div class="p-4 bg-purple-50 rounded-lg border-l-4 border-purple-500">
-  <div class="font-bold text-lg text-gray-800 mb-1">第3期</div>
-  <div class="text-sm text-gray-600">2025年9月〜12月</div>
-  <div class="text-base text-gray-700 mt-2">少しずつ成長した時期</div>
+<div class="p-5 bg-gradient-to-r from-purple-50 to-purple-100 rounded-2xl border-l-8 border-purple-500 shadow-lg flex items-start gap-4">
+  <div class="text-4xl">🌳</div>
+  <div class="flex-1">
+    <div class="font-bold text-xl text-gray-800 mb-1">後期</div>
+    <div class="text-sm text-gray-600">2025年9月〜12月</div>
+    <div class="text-base text-gray-700 mt-2">少しずつ成長した時期</div>
+  </div>
 </div>
 
 </div>
@@ -141,7 +150,7 @@ layout: section
 class: text-center
 ---
 
-# 第1期
+# 前期
 
 <div class="text-2xl mt-8 text-gray-600">
 2024年12月〜2025年3月
@@ -152,10 +161,10 @@ class: text-center
 </div>
 
 <!--
-第1期は、2024年12月から2025年3月まで。
+前期は、2024年12月から2025年3月まで。
 
 この頃はまだネガティブ面の強い時期で、勢いで挑戦するものの、うまくいかないことが続きました。
-このスライドで、第1期の期間と特徴を明確に示し、聞き手にこの時期の雰囲気を伝えます。
+このスライドで、前期の期間と特徴を明確に示し、聞き手にこの時期の雰囲気を伝えます。
 次のスライドで、具体的な出来事や学びを詳しく見ていきます。
 -->
 
@@ -163,13 +172,13 @@ class: text-center
 layout: default
 ---
 
-# 第1期の特徴
+# 前期の特徴
 
 <div class="grid grid-cols-1 gap-6 mt-8">
 
 <div class="text-left">
 
-<div class="p-6 bg-red-50 rounded-lg border-l-4 border-red-500">
+<div class="p-6 bg-gradient-to-r from-red-50 to-red-100 rounded-2xl border-l-8 border-red-500 shadow-lg">
   <div class="font-bold text-xl mb-3 text-gray-800">まだネガティブ面の強い時期</div>
   <div class="text-base text-gray-700 leading-relaxed">
     勢いで挑戦するが、<br/>
@@ -185,7 +194,7 @@ layout: default
 この時期は、まだネガティブ面の強い時期でした。
 勢いでいろいろなことに挑戦するものの、うまくいかないことが続きました。
 
-このスライドで、第1期の全体的な雰囲気や特徴を明確に伝えます。
+このスライドで、前期の全体的な雰囲気や特徴を明確に伝えます。
 聞き手には、この時期が「挑戦するが失敗が続く」という特徴があったことを理解してもらいます。
 -->
 
@@ -193,7 +202,7 @@ layout: default
 layout: default
 ---
 
-# 第1期の主な出来事
+# 前期の主な出来事
 
 <div class="grid grid-cols-1 gap-4 mt-6">
 
@@ -239,7 +248,7 @@ layout: default
 勢いでやりすぎて、結局うまくいかなかった典型例です。
 
 初プロポーザルを勢いで出してみたが、普通に落ちました。
-しばらくうじうじする日々が続きました。この時の失敗の受け止め方が、後の第3期との違いを際立たせるポイントです。
+しばらくうじうじする日々が続きました。この時の失敗の受け止め方が、後の後期との違いを際立たせるポイントです。
 
 2025年1月にCursorを使ってみることにしました。
 そろそろAIコーディングを体験しなきゃと使い始めました。これは後の活動にも影響を与える重要な出来事です。
@@ -251,7 +260,7 @@ layout: default
 2025年3月に有料ITエンジニアコミュニティを退会しました。
 この時期の転換点の一つです。
 
-このスライドで、第1期にどんな出来事があったかを時系列で示します。
+このスライドで、前期にどんな出来事があったかを時系列で示します。
 失敗と挑戦が混在している様子を伝えることで、この時期の特徴を補強します。
 -->
 
@@ -259,17 +268,17 @@ layout: default
 layout: default
 ---
 
-# 第1期の学び
+# 前期の学び
 
 <div class="grid grid-cols-1 gap-4 mt-8">
 
 <div class="text-left space-y-4">
 
-<div class="p-5 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">
+<div class="p-5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border-l-8 border-yellow-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">勢いだけで動くと折れやすい</div>
 </div>
 
-<div class="p-5 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">
+<div class="p-5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border-l-8 border-yellow-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">失敗した時に<span class="text-yellow-700">うじうじしてしまう</span>自分がいた</div>
 </div>
 
@@ -281,7 +290,7 @@ layout: default
 この時期の学びは、勢いだけで動くと折れやすいということ。
 そして、失敗した時にうじうじしてしまう自分がいたということです。
 
-この学びは、後の第3期で「失敗しても分析して次に活かせるようになった」という変化と対比させる重要なポイントです。
+この学びは、後の後期で「失敗しても分析して次に活かせるようになった」という変化と対比させる重要なポイントです。
 聞き手には、この時期の自分がどう失敗を受け止めていたかを理解してもらい、その後の成長をより実感してもらうためのスライドです。
 -->
 
@@ -290,7 +299,7 @@ layout: section
 class: text-center
 ---
 
-# 第2期
+# 中期
 
 <div class="text-2xl mt-8 text-gray-600">
 2025年4月〜2025年7月
@@ -301,13 +310,13 @@ class: text-center
 </div>
 
 <!--
-第2期は、2025年4月から7月まで。
+中期は、2025年4月から7月まで。
 
 この時期は、AIイラスト・AI音楽が趣味になり、メンタル的にも少し落ち着くようになりました。
 自分でコミュニティを作り始め、外部のイベントにも積極的に参加するようになりました。
 
-このスライドで、第2期の期間と特徴を明確に示します。
-第1期の「勢いで挑戦して折れ続けた時期」から、第2期の「コミュニティと活動が広がった時期」への変化を強調します。
+このスライドで、中期の期間と特徴を明確に示します。
+前期の「勢いで挑戦して折れ続けた時期」から、中期の「コミュニティと活動が広がった時期」への変化を強調します。
 次のスライドで、具体的な出来事や学びを詳しく見ていきます。
 -->
 
@@ -315,22 +324,22 @@ class: text-center
 layout: default
 ---
 
-# 第2期の特徴
+# 中期の特徴
 
 <div class="grid grid-cols-1 gap-4 mt-8">
 
 <div class="text-left space-y-4">
 
-<div class="p-5 bg-green-50 rounded-lg border-l-4 border-green-500">
+<div class="p-5 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">AIイラスト・AI音楽が趣味に</div>
   <div class="text-base text-gray-700"><span class="font-semibold text-green-700">メンタル的にも少し落ち着く</span></div>
 </div>
 
-<div class="p-5 bg-green-50 rounded-lg border-l-4 border-green-500">
+<div class="p-5 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">自分でコミュニティを作り始める</div>
 </div>
 
-<div class="p-5 bg-green-50 rounded-lg border-l-4 border-green-500">
+<div class="p-5 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">外部のイベントに積極的に参加</div>
 </div>
 
@@ -339,22 +348,22 @@ layout: default
 </div>
 
 <!--
-第2期は、第1期とは大きく異なる特徴がありました。
+中期は、前期とは大きく異なる特徴がありました。
 
 2024年の7月頃からとりあえず何かAIやプロンプトを学ばなきゃと、AIイラストとAI音楽をやっていたのですが、X(Twitter)の界隈のコミュニティにいくつか参加していたら、なんとなく自分の感情や考えをそういったもので表現できるようになって、メンタル的にも少し落ち着くようになり、この辺りからすっかり趣味になっていました。
-これは、第1期の「うじうじする」状態から、少しずつ回復していく重要な転換点です。
+これは、前期の「うじうじする」状態から、少しずつ回復していく重要な転換点です。
 
 そして、初めて自分でコミュニティを作り運営を始めました。
 これは、外部のイベントに参加するだけではなく、自分から何かを始めるという変化の始まりです。
 
-このスライドで、第2期が第1期とどう違うのか、何が変化したのかを明確に伝えます。
+このスライドで、中期が前期とどう違うのか、何が変化したのかを明確に伝えます。
 -->
 
 ---
 layout: default
 ---
 
-# 第2期の主な出来事
+# 中期の主な出来事
 
 <div class="grid grid-cols-1 gap-4 mt-6">
 
@@ -400,13 +409,13 @@ layout: default
 2025年6月に技術書典18に個人サークル初出展しました。
 初めて技術同人誌を書きました。技術書典も正直こういうイベントはコミケとかも行ったことがなく、学生の頃何回かデザインフェスタに行ったことがある程度だったので新鮮でした。
 
-また、「おだいで.dev」を始めました。これは後の第3期でも重要な活動になります。
+また、「おだいで.dev」を始めました。これは後の後期でも重要な活動になります。
 
 AIイラストが「niji異世界転生」の企画展示の一つに選んでいただきました。
 ラジオ川越さんの「モーニング・ミスト Chain Stream」でAI音楽を流していただきました。
 これらの活動が、メンタル面の回復にもつながっていました。
 
-このスライドで、第2期にどんな変化があったかを示します。
+このスライドで、中期にどんな変化があったかを示します。
 特に、自分でコミュニティを作り始めたことが、後の「自分発信の行動」への変化の始まりであることを伝えます。
 -->
 
@@ -414,18 +423,18 @@ AIイラストが「niji異世界転生」の企画展示の一つに選んで�
 layout: default
 ---
 
-# 第2期の学び
+# 中期の学び
 
 <div class="grid grid-cols-1 gap-4 mt-8">
 
 <div class="text-left space-y-4">
 
-<div class="p-5 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+<div class="p-5 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl border-l-8 border-blue-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">チーム開発と個人開発の違いを実感</div>
   <div class="text-base text-gray-700 mt-1"><span class="font-semibold text-blue-700">個人だと作りきれない</span></div>
 </div>
 
-<div class="p-5 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+<div class="p-5 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl border-l-8 border-blue-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">自分でコミュニティを作ることで</div>
   <div class="text-base text-gray-700 mt-1">運営の<span class="font-semibold text-blue-700">難しさや楽しさ</span>を知る</div>
 </div>
@@ -442,7 +451,7 @@ layout: default
 そして、自分でコミュニティを作ることで、運営の難しさや楽しさを知りました。
 「ゆるっと もくもく会 for Women」を始めたことで、コミュニティ運営の実際を体験し、その後の活動にも活かしていくことになります。
 
-このスライドで、第2期で得た具体的な学びを明確にします。
+このスライドで、中期で得た具体的な学びを明確にします。
 聞き手には、この時期が単に活動が広がっただけでなく、実践的な学びがあったことを理解してもらいます。
 -->
 
@@ -451,7 +460,7 @@ layout: section
 class: text-center
 ---
 
-# 第3期
+# 後期
 
 <div class="text-2xl mt-8 text-gray-600">
 2025年9月〜12月
@@ -462,13 +471,13 @@ class: text-center
 </div>
 
 <!--
-第3期は、2025年9月から12月まで。
+後期は、2025年9月から12月まで。
 
 この時期は、プロポーザルが初めて採択され、失敗から学び、切り替えられるようになりました。
 「自分がやりたいからやる」という内部の動機が増えていきました。
 
-このスライドで、第3期の期間と特徴を明確に示します。
-第1期・第2期から、第3期の「少しずつ成長した時期」への変化を強調します。
+このスライドで、後期の期間と特徴を明確に示します。
+前期・中期から、後期の「少しずつ成長した時期」への変化を強調します。
 特に、失敗の受け止め方と、行動の動機の変化が、この時期の大きな特徴です。
 次のスライドで、具体的な出来事や学びを詳しく見ていきます。
 -->
@@ -477,22 +486,22 @@ class: text-center
 layout: default
 ---
 
-# 第3期の特徴
+# 後期の特徴
 
 <div class="grid grid-cols-1 gap-4 mt-8">
 
 <div class="text-left space-y-4">
 
-<div class="p-5 bg-purple-50 rounded-lg border-l-4 border-purple-500">
+<div class="p-5 bg-gradient-to-r from-purple-50 to-purple-100 rounded-2xl border-l-8 border-purple-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">プロポーザルが<span class="text-purple-700">初めて採択される</span></div>
   <div class="text-base text-gray-700">3回目の挑戦</div>
 </div>
 
-<div class="p-5 bg-purple-50 rounded-lg border-l-4 border-purple-500">
+<div class="p-5 bg-gradient-to-r from-purple-50 to-purple-100 rounded-2xl border-l-8 border-purple-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">失敗から学び、<span class="text-purple-700">切り替えられるように</span></div>
 </div>
 
-<div class="p-5 bg-purple-50 rounded-lg border-l-4 border-purple-500">
+<div class="p-5 bg-gradient-to-r from-purple-50 to-purple-100 rounded-2xl border-l-8 border-purple-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">「自分がやりたいからやる」という</div>
   <div class="text-base text-gray-700"><span class="font-semibold text-purple-700">内部の動機</span>が増える</div>
 </div>
@@ -503,15 +512,15 @@ layout: default
 
 <!--
 この時期は、プロポーザルが初めて採択されました。3回目の挑戦でした。
-第1期で初プロポーザルを出して落選し、うじうじしていた自分とは大きく異なる結果です。
+前期で初プロポーザルを出して落選し、うじうじしていた自分とは大きく異なる結果です。
 
 失敗から学び、切り替えられるようになりました。
-これは、第1期の「うじうじする」状態から、第3期の「分析して次を考える」状態への変化を表しています。
+これは、前期の「うじうじする」状態から、後期の「分析して次を考える」状態への変化を表しています。
 
 「自分がやりたいからやる」という内部の動機が増えていきました。
 これは、前半の「外部のイベントがきっかけで動く」状態から、「自分発信の行動」への変化です。
 
-このスライドで、第3期が第1期・第2期とどう違うのか、何が成長したのかを明確に伝えます。
+このスライドで、後期が前期・中期とどう違うのか、何が成長したのかを明確に伝えます。
 特に、失敗の受け止め方と、行動の動機の変化を強調します。
 -->
 
@@ -519,7 +528,7 @@ layout: default
 layout: default
 ---
 
-# 第3期の主な出来事
+# 後期の主な出来事
 
 <div class="grid grid-cols-1 gap-4 mt-6">
 
@@ -560,7 +569,7 @@ layout: default
 都知事杯オープンデータハッカソンで使ったAIプロンプトを自分で育てていこうと思いFeedback only OSSとして公開しました。
 
 そして、初めてプロポーザルが採択されました。3回目の挑戦でした。
-第1期で初プロポーザルを出して落選し、うじうじしていた自分からすると、大きな進歩です。
+前期で初プロポーザルを出して落選し、うじうじしていた自分からすると、大きな進歩です。
 
 2025年10月にClaude Code Meetup TokyoでLT登壇しました。
 プロポーザルが通ったものです。実際に登壇することで、また新しい経験ができました。
@@ -574,7 +583,7 @@ layout: default
 
 一回採択されただけで、そんなにあまくないよね、ってことでまたプロポーザルに落ちました。
 以前と違い、分析したり次はこうしてみようと考え、落ち込むのから切り替えられるようになっていきました。
-これは、第1期の「うじうじする」状態から、大きく成長したポイントです。
+これは、前期の「うじうじする」状態から、大きく成長したポイントです。
 
 「おだいで.dev」何度も作ってはつまづいて再スタートしてで、ようやくサンプルアプリから始めようと一回作りました。
 「AIだから、なんかすごいもの作らなきゃ」という思いが自分の中にあったので、一回それを捨てて成長をみていく方針になりました。
@@ -582,7 +591,7 @@ layout: default
 
 2025年12月にAdvent of Code、アドベントカレンダーをやっています。
 
-このスライドで、第3期にどんな出来事があったかを示します。
+このスライドで、後期にどんな出来事があったかを示します。
 特に、プロポーザルが採択されたことと、その後も落選したが切り替えられたことを対比させ、成長を強調します。
 -->
 
@@ -590,22 +599,22 @@ layout: default
 layout: default
 ---
 
-# 第3期の学び
+# 後期の学び
 
 <div class="grid grid-cols-1 gap-4 mt-8">
 
 <div class="text-left space-y-4">
 
-<div class="p-5 bg-indigo-50 rounded-lg border-l-4 border-indigo-500">
+<div class="p-5 bg-gradient-to-r from-indigo-50 to-indigo-100 rounded-2xl border-l-8 border-indigo-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">失敗しても<span class="text-indigo-700">分析して次に活かせる</span>ように</div>
 </div>
 
-<div class="p-5 bg-indigo-50 rounded-lg border-l-4 border-indigo-500">
+<div class="p-5 bg-gradient-to-r from-indigo-50 to-indigo-100 rounded-2xl border-l-8 border-indigo-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">「AIだからすごいものを作らなきゃ」という思いを捨て</div>
   <div class="text-base text-gray-700 mt-1"><span class="font-semibold text-indigo-700">成長を見ていく方針</span>に</div>
 </div>
 
-<div class="p-5 bg-indigo-50 rounded-lg border-l-4 border-indigo-500">
+<div class="p-5 bg-gradient-to-r from-indigo-50 to-indigo-100 rounded-2xl border-l-8 border-indigo-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">外部のイベントから</div>
   <div class="text-base text-gray-700 mt-1"><span class="font-semibold text-indigo-700">自分発信の行動</span>へと変化</div>
 </div>
@@ -616,7 +625,7 @@ layout: default
 
 <!--
 この時期の学びは、失敗しても分析して次に活かせるようになったこと。
-第1期では「うじうじする」だけだったのが、第3期では「分析して次を考える」ようになりました。
+前期では「うじうじする」だけだったのが、後期では「分析して次を考える」ようになりました。
 これは、プロポーザルに再び落選した時の対応から明確に表れています。
 
 「AIだからすごいものを作らなきゃ」という思いを捨て、成長を見ていく方針になりました。
@@ -625,8 +634,8 @@ layout: default
 外部のイベントから、自分発信の行動へと変化していきました。
 これは、一年を通しての大きな変化の一つです。
 
-このスライドで、第3期で得た学びを明確にします。
-特に、第1期との対比を意識して、どのように成長したかを強調します。
+このスライドで、後期で得た学びを明確にします。
+特に、前期との対比を意識して、どのように成長したかを強調します。
 聞き手には、この一年で自分がどう変わったのかを実感してもらいます。
 -->
 
@@ -638,14 +647,14 @@ layout: default
 
 <div class="grid grid-cols-2 gap-6 mt-8">
 
-<div class="p-6 bg-red-50 rounded-lg border-l-4 border-red-500">
+<div class="p-6 bg-gradient-to-r from-red-50 to-red-100 rounded-2xl border-l-8 border-red-500 shadow-lg">
   <div class="font-bold text-xl mb-3 text-gray-800">前半</div>
   <div class="text-base text-gray-700 leading-relaxed">
     <span class="font-semibold text-red-700">外部のイベント</span>がきっかけで<br/>動くことが多かった
   </div>
 </div>
 
-<div class="p-6 bg-green-50 rounded-lg border-l-4 border-green-500">
+<div class="p-6 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-lg">
   <div class="font-bold text-xl mb-3 text-gray-800">後半</div>
   <div class="text-base text-gray-700 leading-relaxed">
     <span class="font-semibold text-green-700">「自分がやりたいからやる」</span><br/>という内部の動機が増えた
@@ -654,7 +663,7 @@ layout: default
 
 </div>
 
-<div class="mt-6 p-5 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+<div class="mt-6 p-5 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl border-l-8 border-blue-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">メンタル面</div>
   <div class="text-base text-gray-700">疲れると落ち込むこともあるが、<span class="font-semibold text-blue-700">少しずつ前より戻ってこられるように</span></div>
 </div>
@@ -683,11 +692,11 @@ layout: default
 
 <div class="text-left space-y-4">
 
-<div class="p-5 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">
+<div class="p-5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border-l-8 border-yellow-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">技術同人誌を<span class="text-yellow-700">継続して出していく</span></div>
 </div>
 
-<div class="p-5 bg-yellow-50 rounded-lg border-l-4 border-yellow-500">
+<div class="p-5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border-l-8 border-yellow-500 shadow-md">
   <div class="font-bold text-lg mb-2 text-gray-800">ハッカソンやコミュニティで得た学びを活かして</div>
   <div class="text-base text-gray-700 mt-1"><span class="font-semibold text-yellow-700">小さくても自分らしい</span>個人開発プロダクトを形にする</div>
 </div>
