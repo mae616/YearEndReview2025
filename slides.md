@@ -16,6 +16,7 @@ mdc: true
 duration: 8min
 layout: cover
 css: styles.css
+class: slide-title
 ---
 
 # 2025年の振り返り
@@ -24,8 +25,11 @@ css: styles.css
 - 挑戦して落ち込んで、少しずつ成長した1年 -
 </div>
 
-<div class="pt-12 text-gray-600">
-    2025.12.20 ゆるっと2025年の振り返りLT会！<br>
+<div class="mt-16 text-sm text-gray-600">
+    おでかけテック<br>
+    #2025.12.20 (土) ゆるっと2025年の振り返りLT会！<br>
+</div>
+<div class="mt-1 text-sm text-gray-600">
     mae616
 </div>
 
@@ -709,10 +713,8 @@ layout: center
 class: text-center
 ---
 
-# ありがとうございました
-
 <div class="mt-12 text-2xl text-gray-700 font-medium">
-ご清聴ありがとうございました
+ご清聴ありがとうございました。
 </div>
 
 <div class="mt-8 text-lg text-gray-600 font-semibold">

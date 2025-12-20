@@ -1,4 +1,4 @@
-.slidev-layout.cover {
+.slidev-layout.cover.slide-title {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
         url(/title.png) !important;
 }
