@@ -55,7 +55,7 @@ layout: default
 <div class="flex-1 text-left space-y-5">
 
 <!-- 名前 -->
-<div class="text-3xl font-bold text-gray-900">
+<div class="text-3xl font-bold text-gray-900 mt-8">
   mae616<span class="text-xl text-gray-600 font-normal ml-2">（まえ）</span>
 </div>
 
@@ -100,7 +100,7 @@ layout: default
 </div>
 
 <!-- 右側：イラストとQRコード -->
-<div class="w-64 flex-shrink-0 flex flex-col items-center justify-start mt-[-3em] space-y-4">
+<div class="w-70 flex-shrink-0 flex flex-col items-center justify-start mt-[-2em] ml-[-4em] space-y-4">
 
 <!-- イラスト -->
 <div class="w-44 h-44 bg-gray-200 rounded-full flex items-center justify-center">
@@ -137,43 +137,39 @@ layout: default
 
 # 今日話すこと
 
-<div class="grid grid-cols-1 gap-3 mt-4">
+<div class="mt-6">
 
-<div class="text-left">
-
-<div class="text-base text-gray-700 mb-4">
-  2025年を<span class="font-bold text-gray-800">3つの時期</span>に分けて振り返ります
+<div class="text-base text-gray-700 mb-6 text-center">
+  2025年を<span class="font-semibold text-gray-800">3つの時期</span>に分けて振り返ります
 </div>
 
-<div class="space-y-3">
+<div class="space-y-4">
 
-<div class="p-3 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl border-l-8 border-blue-500 shadow-lg flex items-start gap-3">
-  <div class="text-xl">🌱</div>
+<div class="flex items-center gap-4 p-4 bg-blue-50/40 rounded-lg border border-blue-200/50">
+  <div class="text-3xl">🌱</div>
   <div class="flex-1">
-    <div class="font-bold text-sm text-gray-800 mb-0.5">前期</div>
-    <div class="text-xs text-gray-600">2024年12月〜2025年3月</div>
-    <div class="text-xs text-gray-700 mt-1">勢いで挑戦して折れ続けた時期</div>
+    <div class="font-semibold text-base text-gray-800">前期</div>
+    <div class="text-sm text-gray-600 mt-0.5">2024年12月〜2025年3月</div>
+    <div class="text-sm text-gray-700 mt-1">勢いで挑戦して折れ続けた時期</div>
   </div>
 </div>
 
-<div class="p-3 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-lg flex items-start gap-3">
-  <div class="text-xl">🌿</div>
+<div class="flex items-center gap-4 p-4 bg-green-50/40 rounded-lg border border-green-200/50">
+  <div class="text-3xl">🌿</div>
   <div class="flex-1">
-    <div class="font-bold text-sm text-gray-800 mb-0.5">中期</div>
-    <div class="text-xs text-gray-600">2025年4月〜2025年7月</div>
-    <div class="text-xs text-gray-700 mt-1">コミュニティと活動が広がった時期</div>
+    <div class="font-semibold text-base text-gray-800">中期</div>
+    <div class="text-sm text-gray-600 mt-0.5">2025年4月〜2025年7月</div>
+    <div class="text-sm text-gray-700 mt-1">コミュニティと活動が広がった時期</div>
   </div>
 </div>
 
-<div class="p-3 bg-gradient-to-r from-purple-50 to-purple-100 rounded-2xl border-l-8 border-purple-500 shadow-lg flex items-start gap-3">
-  <div class="text-xl">🌳</div>
+<div class="flex items-center gap-4 p-4 bg-amber-50/40 rounded-lg border border-amber-200/50">
+  <div class="text-3xl">🌳</div>
   <div class="flex-1">
-    <div class="font-bold text-sm text-gray-800 mb-0.5">後期</div>
-    <div class="text-xs text-gray-600">2025年9月〜12月</div>
-    <div class="text-xs text-gray-700 mt-1">少しずつ成長した時期</div>
+    <div class="font-semibold text-base text-gray-800">後期</div>
+    <div class="text-sm text-gray-600 mt-0.5">2025年9月〜12月</div>
+    <div class="text-sm text-gray-700 mt-1">少しずつ成長した時期</div>
   </div>
-</div>
-
 </div>
 
 </div>
@@ -221,16 +217,12 @@ layout: default
 
 <div class="grid grid-cols-1 gap-6 mt-8">
 
-<div class="text-left">
-
-<div class="p-6 bg-gradient-to-r from-red-50 to-red-100 rounded-2xl border-l-8 border-red-500 shadow-lg">
-  <div class="font-bold text-xl mb-3 text-gray-800">まだネガティブ面の強い時期</div>
+<div class="p-5 bg-rose-50/30 rounded-lg border border-rose-200/40">
+  <div class="font-semibold text-lg mb-2 text-gray-800">まだネガティブ面の強い時期</div>
   <div class="text-base text-gray-700 leading-relaxed">
     勢いで挑戦するが、<br/>
-    <span class="font-semibold text-red-600">うまくいかないことが続く</span>
+    <span class="font-semibold text-rose-600">うまくいかないことが続く</span>
   </div>
-</div>
-
 </div>
 
 </div>
@@ -249,65 +241,57 @@ layout: default
 
 # 前期の主な出来事
 
-<div class="grid grid-cols-1 gap-3 mt-4">
+<div class="space-y-3 mt-4">
 
 <!-- 1. アドベントカレンダー初挑戦（失敗） -->
-<div class="p-3 bg-gradient-to-r from-red-50 to-red-100 rounded-2xl border-l-8 border-red-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">❌</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-red-600 text-sm">2024年12月</div>
-        <div class="font-semibold text-gray-800 text-sm">アドベントカレンダー初挑戦</div>
-      </div>
-      <div class="text-gray-700 text-xs">参加しすぎて頭が回らなくなる</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 勢いでやりすぎた典型例</div>
+<div class="flex items-start gap-3 p-3 bg-red-50/40 rounded-lg border border-red-200/50">
+  <div class="text-2xl">❌</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-1">
+      <div class="font-semibold text-red-700 text-sm">2024年12月</div>
+      <div class="font-medium text-gray-800 text-sm">アドベントカレンダー初挑戦</div>
     </div>
+    <div class="text-gray-700 text-xs">参加しすぎて頭が回らなくなる</div>
+    <div class="text-gray-600 text-xs mt-0.5">→ 勢いでやりすぎた典型例</div>
   </div>
 </div>
 
 <!-- 2. 初プロポーザル提出 → 落選（失敗） -->
-<div class="p-3 bg-gradient-to-r from-red-50 to-red-100 rounded-2xl border-l-8 border-red-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">❌</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-red-600 text-sm">2024年12月</div>
-        <div class="font-semibold text-gray-800 text-sm">初プロポーザル提出 → 落選</div>
-      </div>
-      <div class="text-gray-700 text-xs">しばらくうじうじする</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 失敗の受け止め方が後と対比</div>
+<div class="flex items-start gap-3 p-3 bg-red-50/40 rounded-lg border border-red-200/50">
+  <div class="text-2xl">❌</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-1">
+      <div class="font-semibold text-red-700 text-sm">2024年12月</div>
+      <div class="font-medium text-gray-800 text-sm">初プロポーザル提出 → 落選</div>
     </div>
+    <div class="text-gray-700 text-xs">しばらくうじうじする</div>
+    <div class="text-gray-600 text-xs mt-0.5">→ 失敗の受け止め方が後と対比</div>
   </div>
 </div>
 
 <!-- 3. Cursorを使い始める（フラット） -->
-<div class="p-3 bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl border-l-8 border-gray-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">📌</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-gray-600 text-sm">2025年1月</div>
-        <div class="font-semibold text-gray-800 text-sm">Cursorを使い始める</div>
-      </div>
-      <div class="text-gray-700 text-xs">AIコーディングを体験</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 後の活動にも影響</div>
+<div class="flex items-start gap-3 p-3 bg-gray-50/40 rounded-lg border border-gray-200/50">
+  <div class="text-2xl">📌</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-1">
+      <div class="font-semibold text-gray-700 text-sm">2025年1月</div>
+      <div class="font-medium text-gray-800 text-sm">Cursorを使い始める</div>
     </div>
+    <div class="text-gray-700 text-xs">AIコーディングを体験</div>
+    <div class="text-gray-600 text-xs mt-0.5">→ 後の活動にも影響</div>
   </div>
 </div>
 
 <!-- 4. 有料ITエンジニアコミュニティを退会（フラット） -->
-<div class="p-3 bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl border-l-8 border-gray-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">📌</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-gray-600 text-sm">2025年3月</div>
-        <div class="font-semibold text-gray-800 text-sm">有料ITエンジニアコミュニティを退会</div>
-      </div>
-      <div class="text-gray-700 text-xs">この時期の転換点の一つ</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 活動の方向性を見直す</div>
+<div class="flex items-start gap-3 p-3 bg-gray-50/40 rounded-lg border border-gray-200/50">
+  <div class="text-2xl">📌</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-1">
+      <div class="font-semibold text-gray-700 text-sm">2025年3月</div>
+      <div class="font-medium text-gray-800 text-sm">有料ITエンジニアコミュニティを退会</div>
     </div>
+    <div class="text-gray-700 text-xs">この時期の転換点の一つ</div>
+    <div class="text-gray-600 text-xs mt-0.5">→ 活動の方向性を見直す</div>
   </div>
 </div>
 
@@ -343,14 +327,14 @@ layout: default
 
 <div class="grid grid-cols-1 gap-4 mt-8">
 
-<div class="text-left space-y-4">
+<div class="space-y-3">
 
-<div class="p-5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border-l-8 border-yellow-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">勢いだけで動くと折れやすい</div>
+<div class="p-4 bg-amber-50/30 rounded-lg border border-amber-200/40">
+  <div class="font-medium text-base text-gray-800">勢いだけで動くと折れやすい</div>
 </div>
 
-<div class="p-5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border-l-8 border-yellow-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">失敗した時に<span class="text-yellow-700">うじうじしてしまう</span>自分がいた</div>
+<div class="p-4 bg-amber-50/30 rounded-lg border border-amber-200/40">
+  <div class="font-medium text-base text-gray-800">失敗した時に<span class="text-amber-700">うじうじしてしまう</span>自分がいた</div>
 </div>
 
 </div>
@@ -399,18 +383,18 @@ layout: default
 
 <div class="grid grid-cols-1 gap-4 mt-8">
 
-<div class="text-left space-y-4">
+<div class="space-y-3">
 
-<div class="p-5 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">AIイラスト・AI音楽が趣味に - <span class="font-semibold text-green-700">メンタル的にも少し落ち着く</span></div>
+<div class="p-4 bg-emerald-50/30 rounded-lg border border-emerald-200/40">
+  <div class="font-medium text-base text-gray-800">AIイラスト・AI音楽が趣味に - <span class="font-semibold text-emerald-700">メンタル的にも少し落ち着く</span></div>
 </div>
 
-<div class="p-5 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">自分でコミュニティを作り始める</div>
+<div class="p-4 bg-emerald-50/30 rounded-lg border border-emerald-200/40">
+  <div class="font-medium text-base text-gray-800">自分でコミュニティを作り始める</div>
 </div>
 
-<div class="p-5 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">外部のイベントに積極的に参加</div>
+<div class="p-4 bg-emerald-50/30 rounded-lg border border-emerald-200/40">
+  <div class="font-medium text-base text-gray-800">外部のイベントに積極的に参加</div>
 </div>
 
 </div>
@@ -435,65 +419,57 @@ layout: default
 
 # 中期の主な出来事
 
-<div class="grid grid-cols-1 gap-3 mt-4">
+<div class="space-y-3 mt-4">
 
 <!-- 5. 「ゆるっと もくもく会 for Women」を始める（フラット） -->
-<div class="p-3 bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl border-l-8 border-gray-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">📌</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-gray-600 text-sm">2025年4月</div>
-        <div class="font-semibold text-gray-800 text-sm">「ゆるっと もくもく会 for Women」を始める</div>
-      </div>
-      <div class="text-gray-700 text-xs">初めて自分でコミュニティ運営</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 自分から何かを始める変化</div>
+<div class="flex items-start gap-3 p-3 bg-gray-50/40 rounded-lg border border-gray-200/50">
+  <div class="text-2xl">📌</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-1">
+      <div class="font-semibold text-gray-700 text-sm">2025年4月</div>
+      <div class="font-medium text-gray-800 text-sm">「ゆるっと もくもく会 for Women」を始める</div>
     </div>
+    <div class="text-gray-700 text-xs">初めて自分でコミュニティ運営</div>
+    <div class="text-gray-600 text-xs mt-0.5">→ 自分から何かを始める変化</div>
   </div>
 </div>
 
 <!-- 6. WAKE Careerさんハッカソン 個人参加 → 作りきれず（失敗） -->
-<div class="p-3 bg-gradient-to-r from-red-50 to-red-100 rounded-2xl border-l-8 border-red-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">❌</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-red-600 text-sm">2025年5月</div>
-        <div class="font-semibold text-gray-800 text-sm">WAKE Careerさんハッカソン 個人参加</div>
-      </div>
-      <div class="text-gray-700 text-xs">作りきれず</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 個人開発の難しさを実感</div>
+<div class="flex items-start gap-3 p-3 bg-red-50/40 rounded-lg border border-red-200/50">
+  <div class="text-2xl">❌</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-1">
+      <div class="font-semibold text-red-700 text-sm">2025年5月</div>
+      <div class="font-medium text-gray-800 text-sm">WAKE Careerさんハッカソン 個人参加</div>
     </div>
+    <div class="text-gray-700 text-xs">作りきれず</div>
+    <div class="text-gray-600 text-xs mt-0.5">→ 個人開発の難しさを実感</div>
   </div>
 </div>
 
 <!-- 7. 技術書典18 個人サークル初出展（成功） -->
-<div class="p-3 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">✨</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-green-600 text-sm">2025年6月</div>
-        <div class="font-semibold text-gray-800 text-sm">技術書典18 個人サークル初出展</div>
-      </div>
-      <div class="text-gray-700 text-xs">初めて技術同人誌を書いた</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 新鮮な体験、学びが多かった</div>
+<div class="flex items-start gap-3 p-3 bg-green-50/40 rounded-lg border border-green-200/50">
+  <div class="text-2xl">✨</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-1">
+      <div class="font-semibold text-green-700 text-sm">2025年6月</div>
+      <div class="font-medium text-gray-800 text-sm">技術書典18 個人サークル初出展</div>
     </div>
+    <div class="text-gray-700 text-xs">初めて技術同人誌を書いた</div>
+    <div class="text-gray-600 text-xs mt-0.5">→ 新鮮な体験、学びが多かった</div>
   </div>
 </div>
 
 <!-- 8. 「おだいで.dev」を始める（フラット） -->
-<div class="p-3 bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl border-l-8 border-gray-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">📌</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-gray-600 text-sm">2025年6月</div>
-        <div class="font-semibold text-gray-800 text-sm">「おだいで.dev」を始める</div>
-      </div>
-      <div class="text-gray-700 text-xs">AIを使った個人開発プロダクト</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 後期でも重要な活動に</div>
+<div class="flex items-start gap-3 p-3 bg-gray-50/40 rounded-lg border border-gray-200/50">
+  <div class="text-2xl">📌</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-1">
+      <div class="font-semibold text-gray-700 text-sm">2025年6月</div>
+      <div class="font-medium text-gray-800 text-sm">「おだいで.dev」を始める</div>
     </div>
+    <div class="text-gray-700 text-xs">AIを使った個人開発プロダクト</div>
+    <div class="text-gray-600 text-xs mt-0.5">→ 後期でも重要な活動に</div>
   </div>
 </div>
 
@@ -531,14 +507,14 @@ layout: default
 
 <div class="grid grid-cols-1 gap-4 mt-8">
 
-<div class="text-left space-y-4">
+<div class="space-y-3">
 
-<div class="p-5 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl border-l-8 border-blue-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">チーム開発と個人開発の違いを実感 - <span class="font-semibold text-blue-700">個人だと作りきれない</span></div>
+<div class="p-4 bg-sky-50/30 rounded-lg border border-sky-200/40">
+  <div class="font-medium text-base text-gray-800">チーム開発と個人開発の違いを実感 - <span class="font-semibold text-sky-700">個人だと作りきれない</span></div>
 </div>
 
-<div class="p-5 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl border-l-8 border-blue-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">自分でコミュニティを作ることで運営の<span class="font-semibold text-blue-700">難しさや楽しさ</span>を知る</div>
+<div class="p-4 bg-sky-50/30 rounded-lg border border-sky-200/40">
+  <div class="font-medium text-base text-gray-800">自分でコミュニティを作ることで運営の<span class="font-semibold text-sky-700">難しさや楽しさ</span>を知る</div>
 </div>
 
 </div>
@@ -592,18 +568,18 @@ layout: default
 
 <div class="grid grid-cols-1 gap-4 mt-8">
 
-<div class="text-left space-y-4">
+<div class="space-y-3">
 
-<div class="p-5 bg-gradient-to-r from-purple-50 to-purple-100 rounded-2xl border-l-8 border-purple-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">プロポーザルが<span class="text-purple-700">初めて採択される</span> - 3回目の挑戦</div>
+<div class="p-4 bg-violet-50/30 rounded-lg border border-violet-200/40">
+  <div class="font-medium text-base text-gray-800">プロポーザルが<span class="text-violet-700">初めて採択される</span> - 3回目の挑戦</div>
 </div>
 
-<div class="p-5 bg-gradient-to-r from-purple-50 to-purple-100 rounded-2xl border-l-8 border-purple-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">失敗から学び、<span class="text-purple-700">切り替えられるように</span></div>
+<div class="p-4 bg-violet-50/30 rounded-lg border border-violet-200/40">
+  <div class="font-medium text-base text-gray-800">失敗から学び、<span class="text-violet-700">切り替えられるように</span></div>
 </div>
 
-<div class="p-5 bg-gradient-to-r from-purple-50 to-purple-100 rounded-2xl border-l-8 border-purple-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">「自分がやりたいからやる」という<span class="font-semibold text-purple-700">内部の動機</span>が増える</div>
+<div class="p-4 bg-violet-50/30 rounded-lg border border-violet-200/40">
+  <div class="font-medium text-base text-gray-800">「自分がやりたいからやる」という<span class="font-semibold text-violet-700">内部の動機</span>が増える</div>
 </div>
 
 </div>
@@ -630,80 +606,70 @@ layout: default
 
 # 後期の主な出来事
 
-<div class="grid grid-cols-1 gap-2.5 mt-3">
+<div class="space-y-2 mt-3">
 
 <!-- 9. 都知事杯オープンデータハッカソン 個人参加 → 作りきれた（成功） -->
-<div class="p-3 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">✨</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-green-600 text-sm">2025年8月</div>
-        <div class="font-semibold text-gray-800 text-sm">都知事杯オープンデータハッカソン 個人参加</div>
-      </div>
-      <div class="text-gray-700 text-xs">個人参加2回目で初めて完成。一次審査は通らず</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ ハッカソン完走の達成感</div>
+<div class="flex items-start gap-2.5 p-2.5 bg-green-50/40 rounded-lg border border-green-200/50">
+  <div class="text-xl">✨</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-0.5">
+      <div class="font-semibold text-green-700 text-sm">2025年8月</div>
+      <div class="font-medium text-gray-800 text-sm">都知事杯オープンデータハッカソン 個人参加</div>
     </div>
+    <div class="text-gray-700 text-xs">個人参加2回目で初めて完成。一次審査は通らず</div>
+    <div class="text-gray-600 text-xs">→ ハッカソン完走の達成感</div>
   </div>
 </div>
 
 <!-- 10. OSS公開（Feedback only）（フラット） -->
-<div class="p-3 bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl border-l-8 border-gray-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">📌</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-gray-600 text-sm">2025年9月</div>
-        <div class="font-semibold text-gray-800 text-sm">OSS公開（Feedback only）</div>
-      </div>
-      <div class="text-gray-700 text-xs">都知事杯で使ったAIプロンプトを公開</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 自分で育てていこうと決意</div>
+<div class="flex items-start gap-2.5 p-2.5 bg-gray-50/40 rounded-lg border border-gray-200/50">
+  <div class="text-xl">📌</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-0.5">
+      <div class="font-semibold text-gray-700 text-sm">2025年9月</div>
+      <div class="font-medium text-gray-800 text-sm">OSS公開（Feedback only）</div>
     </div>
+    <div class="text-gray-700 text-xs">都知事杯で使ったAIプロンプトを公開</div>
+    <div class="text-gray-600 text-xs">→ 自分で育てていこうと決意</div>
   </div>
 </div>
 
 <!-- 11. プロポーザル採択（3回目）→ Claude Code Meetup TokyoでLT登壇（成功） -->
-<div class="p-3 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">✨</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-green-600 text-sm">2025年9月〜10月</div>
-        <div class="font-semibold text-gray-800 text-sm">プロポーザル採択（3回目）→ LT登壇</div>
-      </div>
-      <div class="text-gray-700 text-xs">Claude Code Meetup Tokyoで登壇</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 3回目の挑戦で初採択</div>
+<div class="flex items-start gap-2.5 p-2.5 bg-green-50/40 rounded-lg border border-green-200/50">
+  <div class="text-xl">✨</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-0.5">
+      <div class="font-semibold text-green-700 text-sm">2025年9月〜10月</div>
+      <div class="font-medium text-gray-800 text-sm">プロポーザル採択（3回目）→ LT登壇</div>
     </div>
+    <div class="text-gray-700 text-xs">Claude Code Meetup Tokyoで登壇</div>
+    <div class="text-gray-600 text-xs">→ 3回目の挑戦で初採択</div>
   </div>
 </div>
 
 <!-- 12. プロポーザル再び落選 → 分析して次を考えるように（成長） -->
-<div class="p-3 bg-gradient-to-r from-purple-50 to-purple-100 rounded-2xl border-l-8 border-purple-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">💡</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-purple-600 text-sm">2025年11月</div>
-        <div class="font-semibold text-gray-800 text-sm">プロポーザル再び落選 → 分析して次へ</div>
-      </div>
-      <div class="text-gray-700 text-xs">でも、うじうじせず次を考えられるように</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 失敗の受け止め方が変化</div>
+<div class="flex items-start gap-2.5 p-2.5 bg-purple-50/40 rounded-lg border border-purple-200/50">
+  <div class="text-xl">💡</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-0.5">
+      <div class="font-semibold text-purple-700 text-sm">2025年11月</div>
+      <div class="font-medium text-gray-800 text-sm">プロポーザル再び落選 → 分析して次へ</div>
     </div>
+    <div class="text-gray-700 text-xs">でも、うじうじせず次を考えられるように</div>
+    <div class="text-gray-600 text-xs">→ 失敗の受け止め方が変化</div>
   </div>
 </div>
 
 <!-- 13. 「おだいで.dev」サンプルアプリから始める方針に変更（成長） -->
-<div class="p-3 bg-gradient-to-r from-purple-50 to-purple-100 rounded-2xl border-l-8 border-purple-500 shadow-md">
-  <div class="flex items-start gap-3">
-    <div class="text-xl">💡</div>
-    <div class="flex-1">
-      <div class="flex items-baseline gap-2 mb-1">
-        <div class="font-bold text-purple-600 text-sm">2025年11月</div>
-        <div class="font-semibold text-gray-800 text-sm">「おだいで.dev」方針変更</div>
-      </div>
-      <div class="text-gray-700 text-xs">サンプルアプリから始める方針に</div>
-      <div class="text-gray-600 text-xs mt-0.5">→ 完璧主義を捨てる決断</div>
+<div class="flex items-start gap-2.5 p-2.5 bg-purple-50/40 rounded-lg border border-purple-200/50">
+  <div class="text-xl">💡</div>
+  <div class="flex-1">
+    <div class="flex items-baseline gap-2 mb-0.5">
+      <div class="font-semibold text-purple-700 text-sm">2025年11月</div>
+      <div class="font-medium text-gray-800 text-sm">「おだいで.dev」方針変更</div>
     </div>
+    <div class="text-gray-700 text-xs">サンプルアプリから始める方針に</div>
+    <div class="text-gray-600 text-xs">→ 完璧主義を捨てる決断</div>
   </div>
 </div>
 
@@ -748,18 +714,18 @@ layout: default
 
 <div class="grid grid-cols-1 gap-4 mt-8">
 
-<div class="text-left space-y-4">
+<div class="space-y-3">
 
-<div class="p-5 bg-gradient-to-r from-indigo-50 to-indigo-100 rounded-2xl border-l-8 border-indigo-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">失敗しても<span class="text-indigo-700">分析して次に活かせる</span>ように</div>
+<div class="p-4 bg-indigo-50/30 rounded-lg border border-indigo-200/40">
+  <div class="font-medium text-base text-gray-800">失敗しても<span class="text-indigo-700">分析して次に活かせる</span>ように</div>
 </div>
 
-<div class="p-5 bg-gradient-to-r from-indigo-50 to-indigo-100 rounded-2xl border-l-8 border-indigo-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">「AIだからすごいものを作らなきゃ」という思いを捨て - <span class="font-semibold text-indigo-700">成長を見ていく方針</span>に</div>
+<div class="p-4 bg-indigo-50/30 rounded-lg border border-indigo-200/40">
+  <div class="font-medium text-base text-gray-800">「AIだからすごいものを作らなきゃ」という思いを捨て - <span class="font-semibold text-indigo-700">成長を見ていく方針</span>に</div>
 </div>
 
-<div class="p-5 bg-gradient-to-r from-indigo-50 to-indigo-100 rounded-2xl border-l-8 border-indigo-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">外部のイベントから<span class="font-semibold text-indigo-700">自分発信の行動</span>へと変化</div>
+<div class="p-4 bg-indigo-50/30 rounded-lg border border-indigo-200/40">
+  <div class="font-medium text-base text-gray-800">外部のイベントから<span class="font-semibold text-indigo-700">自分発信の行動</span>へと変化</div>
 </div>
 
 </div>
@@ -788,27 +754,27 @@ layout: default
 
 # 一年を通しての変化
 
-<div class="grid grid-cols-2 gap-6 mt-8">
+<div class="grid grid-cols-2 gap-6 mt-8 max-w-4xl mx-auto">
 
-<div class="p-6 bg-gradient-to-r from-red-50 to-red-100 rounded-2xl border-l-8 border-red-500 shadow-lg">
-  <div class="font-bold text-xl mb-3 text-gray-800">前半</div>
+<div class="p-5 bg-rose-50/30 rounded-lg border border-rose-200/40">
+  <div class="font-semibold text-lg mb-3 text-gray-800">前半</div>
   <div class="text-base text-gray-700 leading-relaxed">
-    <span class="font-semibold text-red-700">外部のイベント</span>がきっかけで<br/>動くことが多かった
+    <span class="font-semibold text-rose-700">外部のイベント</span>がきっかけで<br/>動くことが多かった
   </div>
 </div>
 
-<div class="p-6 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl border-l-8 border-green-500 shadow-lg">
-  <div class="font-bold text-xl mb-3 text-gray-800">後半</div>
+<div class="p-5 bg-emerald-50/30 rounded-lg border border-emerald-200/40">
+  <div class="font-semibold text-lg mb-3 text-gray-800">後半</div>
   <div class="text-base text-gray-700 leading-relaxed">
-    <span class="font-semibold text-green-700">「自分がやりたいからやる」</span><br/>という内部の動機が増えた
+    <span class="font-semibold text-emerald-700">「自分がやりたいからやる」</span><br/>という内部の動機が増えた
   </div>
 </div>
 
 </div>
 
-<div class="mt-6 p-5 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl border-l-8 border-blue-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">メンタル面</div>
-  <div class="text-base text-gray-700">疲れると落ち込むこともあるが、<span class="font-semibold text-blue-700">少しずつ前より戻ってこられるように</span></div>
+<div class="mt-6 p-4 bg-sky-50/30 rounded-lg border border-sky-200/40 max-w-4xl mx-auto">
+  <div class="font-semibold text-base mb-2 text-gray-800">メンタル面</div>
+  <div class="text-base text-gray-700">疲れると落ち込むこともあるが、<span class="font-semibold text-sky-700">少しずつ前より戻ってこられるように</span></div>
 </div>
 
 <!--
@@ -833,15 +799,15 @@ layout: default
 
 <div class="grid grid-cols-1 gap-4 mt-8">
 
-<div class="text-left space-y-4">
+<div class="space-y-4">
 
-<div class="p-5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border-l-8 border-yellow-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">技術同人誌を<span class="text-yellow-700">継続して出していく</span></div>
+<div class="p-4 bg-amber-50/30 rounded-lg border border-amber-200/40">
+  <div class="font-medium text-base text-gray-800">技術同人誌を<span class="text-amber-700">継続して出していく</span></div>
 </div>
 
-<div class="p-5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border-l-8 border-yellow-500 shadow-md">
-  <div class="font-bold text-lg mb-2 text-gray-800">ハッカソンやコミュニティで得た学びを活かして</div>
-  <div class="text-base text-gray-700 mt-1"><span class="font-semibold text-yellow-700">小さくても自分らしい</span>個人開発プロダクトを形にする</div>
+<div class="p-4 bg-amber-50/30 rounded-lg border border-amber-200/40">
+  <div class="font-medium text-base text-gray-800">ハッカソンやコミュニティで得た学びを活かして</div>
+  <div class="text-base text-gray-700 mt-1"><span class="font-semibold text-amber-700">小さくても自分らしい</span>個人開発プロダクトを形にする</div>
 </div>
 
 </div>
@@ -862,15 +828,15 @@ layout: default
 
 ---
 layout: center
-class: text-center
+class: text-center slide-end
 ---
 
-<div class="mt-12 text-2xl text-gray-700 font-medium">
-ご清聴ありがとうございました。
+<div class="mt-0 mr-20 text-2xl text-gray-700 font-medium">
+ご清聴ありがとうございました！
 </div>
 
-<div class="mt-8 text-lg text-gray-600 font-semibold">
-mae616
+<div class="mt-8 mr-[-7.5em] text-xl text-gray-700 font-medium">
+良いお年を！
 </div>
 
 <!--

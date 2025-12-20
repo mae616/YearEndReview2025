@@ -1,4 +1,4 @@
-.slidev-layout.cover.slide-title {
+.slidev-layout.slide-title {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
         url(/title.png) !important;
 }
@@ -7,21 +7,27 @@
     color: #565656 !important;
 }
 
-.slidev-layout.section.slide-section1 {
+.slidev-layout.slide-section1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
         url(/section1.png) !important;
     background-size: cover;
 }
 
-.slidev-layout.section.slide-section2 {
+.slidev-layout.slide-section2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
         url(/section2.png) !important;
     background-size: cover;
 }
 
-.slidev-layout.section.slide-section3 {
+.slidev-layout.slide-section3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
         url(/section3.png) !important;
+    background-size: cover;
+}
+
+.slidev-layout.slide-end {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+        url(/end.png) !important;
     background-size: cover;
 }
 
