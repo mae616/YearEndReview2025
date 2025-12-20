@@ -6,3 +6,90 @@
 .slidev-layout.cover h1 {
     color: #565656 !important;
 }
+
+.slidev-layout.section.slide-section1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+        url(/section1.png) !important;
+    background-size: cover;
+}
+
+.slidev-layout.section.slide-section2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+        url(/section2.png) !important;
+    background-size: cover;
+}
+
+.slidev-layout.section.slide-section3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+        url(/section3.png) !important;
+    background-size: cover;
+}
+
+/* 前期（青系背景）- 重厚感と試練のイメージ */
+.slidev-layout.section.slide-section1 h1 {
+    color: #2563eb !important; /* 落ち着いた青 */
+    font-size: 3.75rem !important;
+    font-weight: 700 !important;
+    margin-top: -2rem !important;
+    letter-spacing: 0.05em !important;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.slidev-layout.section.slide-section1 .text-gray-600 {
+    color: #4b5563 !important; /* 読みやすいグレー */
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
+}
+
+.slidev-layout.section.slide-section1 .text-gray-800 {
+    color: #1e40af !important; /* 青 */
+    font-size: 1.375rem !important;
+    font-weight: 600 !important;
+    margin-top: 1.5rem !important;
+}
+
+/* 中期（黄緑系背景）- エネルギーと広がりのイメージ */
+.slidev-layout.section.slide-section2 h1 {
+    color: #059669 !important; /* 落ち着いたエメラルドグリーン */
+    font-size: 3.75rem !important;
+    font-weight: 700 !important;
+    margin-top: -2rem !important;
+    letter-spacing: 0.05em !important;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.slidev-layout.section.slide-section2 .text-gray-600 {
+    color: #065f46 !important; /* 読みやすいグリーン */
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
+}
+
+.slidev-layout.section.slide-section2 .text-gray-800 {
+    color: #047857 !important; /* グリーン */
+    font-size: 1.375rem !important;
+    font-weight: 600 !important;
+    margin-top: 1.5rem !important;
+}
+
+/* 後期（ベージュ/オレンジ系背景）- 温かさと成長のイメージ */
+.slidev-layout.section.slide-section3 h1 {
+    color: #d97706 !important; /* 落ち着いたアンバー */
+    font-size: 3.75rem !important;
+    font-weight: 700 !important;
+    margin-top: -2rem !important;
+    letter-spacing: 0.05em !important;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.slidev-layout.section.slide-section3 .text-gray-600 {
+    color: #78350f !important; /* 読みやすいブラウン */
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
+}
+
+.slidev-layout.section.slide-section3 .text-gray-800 {
+    color: #92400e !important; /* ブラウン */
+    font-size: 1.375rem !important;
+    font-weight: 600 !important;
+    margin-top: 1.5rem !important;
+}

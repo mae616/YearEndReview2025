@@ -49,27 +49,72 @@ layout: default
 
 # 自己紹介
 
-<div class="grid grid-cols-1 gap-6 mt-8">
+<div class="flex gap-16 mt-4">
 
-<div class="text-left space-y-4">
+<!-- 左側：情報 -->
+<div class="flex-1 text-left space-y-5">
 
-<div class="text-2xl font-bold text-gray-800">
-  mae616<span class="text-lg text-gray-600 font-normal ml-2">（まえ）</span>
+<!-- 名前 -->
+<div class="text-3xl font-bold text-gray-900">
+  mae616<span class="text-xl text-gray-600 font-normal ml-2">（まえ）</span>
 </div>
 
-<div class="space-y-3 text-gray-700">
-  <div class="flex items-center gap-2">
-    <span class="w-2 h-2 bg-blue-400 rounded-full"></span>
-    <span>エンジニア歴8年のWebエンジニア</span>
+<!-- 職業・経歴 -->
+<div class="space-y-1.5 text-gray-800">
+  <div class="flex items-start gap-2.5">
+    <span class="text-pink-500 text-base">•</span>
+    <span class="text-base leading-relaxed">フリーランス準備中（休職中のWebエンジニア）</span>
   </div>
-  <div class="flex items-center gap-2">
-    <span class="w-2 h-2 bg-green-400 rounded-full"></span>
-    <span>小さなコミュニティの運営をしている</span>
+  <div class="flex items-start gap-2.5">
+    <span class="text-pink-500 text-base">•</span>
+    <span class="text-base leading-relaxed">エンジニア歴 8年（SE 6.5年、Web 1.5年、講師の副業 1年）</span>
   </div>
-  <div class="flex items-center gap-2">
-    <span class="w-2 h-2 bg-purple-400 rounded-full"></span>
-    <span>現在はフリーランス準備中</span>
+</div>
+
+<!-- コミュニティ運営 -->
+<div class="space-y-1.5">
+  <div class="text-base font-semibold text-gray-900">コミュニティ運営</div>
+  <div class="space-y-1.5 text-gray-800">
+    <div class="flex items-start gap-2.5">
+      <span class="text-pink-500 text-base">•</span>
+      <span class="text-base leading-relaxed">ゆるっと もくもく会 for Women</span>
+    </div>
+    <div class="flex items-start gap-2.5">
+      <span class="text-pink-500 text-base">•</span>
+      <span class="text-base leading-relaxed">お題でプログラミング: おだいで.dev 開発で遊ぼう！ ...他</span>
+    </div>
   </div>
+</div>
+
+<!-- 直近の予定 -->
+<div class="space-y-1.5">
+  <div class="text-base font-semibold text-gray-900">直近の予定</div>
+  <div class="space-y-1.5 text-gray-800">
+    <div class="flex items-start gap-2.5">
+      <span class="text-pink-500 text-base">•</span>
+      <span class="text-base leading-relaxed">第4回 Agentic AI Hackathon with Google Cloud (Zenn) エントリー</span>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- 右側：イラストとQRコード -->
+<div class="w-64 flex-shrink-0 flex flex-col items-center justify-start mt-[-3em] space-y-4">
+
+<!-- イラスト -->
+<div class="w-44 h-44 bg-gray-200 rounded-full flex items-center justify-center">
+  <img src="/profile.jpeg" alt="プロフィール画像" class="w-full h-full object-cover rounded-full" />
+</div>
+
+<!-- Xハンドル -->
+<div class="text-center text-gray-800 text-sm font-medium">
+  X: @mae616_
+</div>
+
+<!-- QRコード -->
+<div class="w-40 h-40 bg-white p-2 border border-gray-300 rounded">
+  <img src="/xqr.png" alt="QRコード" class="w-full h-full object-contain" />
 </div>
 
 </div>
@@ -147,7 +192,7 @@ layout: default
 
 ---
 layout: section
-class: text-center
+class: text-center slide-section1
 ---
 
 # 前期
@@ -322,7 +367,7 @@ layout: default
 
 ---
 layout: section
-class: text-center
+class: text-center slide-section2
 ---
 
 # 中期
@@ -514,7 +559,7 @@ layout: default
 
 ---
 layout: section
-class: text-center
+class: text-center slide-section3 
 ---
 
 # 後期
